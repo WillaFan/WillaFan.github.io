@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hello - This is Willa Fan</title>
+
+    <link rel="shortcut icon" href="../../images/icon.png" type="image/png">
+
+    <style>
+        body {
+            background-color: skyblue;
+            font-family: Arial;
+            font-size: 11px;
+            display: grid;
+            grid-template-rows: [header-start] 100px [content-start] 400px [footer-start] 100px;
+            grid-template-columns: [ads] 200px [main] 1fr [links] 200px;
+            grid-template-areas:
+                "header header header"
+                "ads main links"
+                "footer footer footer";
+        }
+
+        header {
+            background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px, linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px, linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px, linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px, linear-gradient(90deg, #1b1b1b 10px, transparent 10px), linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+            background-color: #131313;
+            background-size: 20px 20px;
+            top: 0;
+            left: 0px;
+            width: 100%;
+            height: 1%;
+            position: fixed;
+            grid-area: "header";
+            position: fixed;
+        }
+
+        main {
+        
+        }
+
+        content {
+            grid-area:"main";
+            position:absolute;
+            width:500px;
+            left:400px;
+            height:99%;
+            bottom:0;
+        }
+
+        aside#left {
+            background: linear-gradient(315deg, transparent 75%, #F0FBFF 0)-10px 0, linear-gradient(45deg, transparent 75%, #F0FBFF 0)-10px 0, linear-gradient(135deg, #B0C4DE 50%, transparent 0) 0 0, linear-gradient(45deg, #F0FFFF 50%, #E6E6FA 0) 0 0 #561a16;
+            background-size: 10px 10px;
+            left: 0;
+            bottom: 0;
+            width: 300px;
+            height: 99%;
+            grid-area: "ads";
+            position: fixed;
+        }
+
+        aside#right {
+            right: 0;
+            bottom: 400px;
+            width: 420px;
+            height: 30%;
+            grid-area: "links";
+            position: fixed;
+            background-color: ivory;
+        }
+
+        footer {
+            grid-area: "footer";
+            position: fixed;
+            bottom: 0;
+            width: 300px;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="head-container"style="top:0;right:0;color:white">
+            Language
+        </div>
+
+    </header>
+    <main>
+        <aside id="left">
+            <h1 style="color:blue">Resume</h1>
+
+            <p style="font-family:cursive">
+                Master's in Big Data Technology with experience in deployment and building RESTful API in JAVA. 
+                Participated in building and implementing deep learning models through programming in Python project
+            </p>
+
+            <br /><br />
+            <h4 style="font-family:cursive">Personal Interest</h4>
+            <p>Jogging</p>
+            <p id="science-power-Jane-MSleader">Book reading</p>
+        </aside>
+
+        <content>
+            <div class="placeholder" style="color:transparent">
+                Placeholder
+            </div>
+
+            <div class="flex_head" style="width:600px;height:30px;display:flex;flex-direction:row;justify-content:flex-start">
+                <svg width="200px" height="30px" viewBox="0 0 200 30">
+                    <defs>
+                        <filter id="inset-shadow">
+                            <feOffset dx="0" dy="0" />
+                            <feGaussianBlur stdDeviation="5" result="offset-blur" />
+                            <feComposite operator="out" in="SourceGraphic" in2="offset-blur" result="inverse" />
+                            <feFlood flood-color="black" flood-opacity=".95" result="color" />
+                            <feComposite operator="in" in="color" in2="inverse" result="shadow" />
+                            <feComposite operator="over" in="shadow" in2="SourceGraphic" />
+                        </filter>
+
+                    </defs>
+                    <!--<image xlink:href="../../images/headshape1.png" width="500" height="100" style="filter:url(#inset-shadow)"></image>-->
+                    <rect width="200" height="30" fill="#778899" style="filter:url(#inset-shadow)" rx="2" ry="2"></rect>
+                    <text x="20" y="20" fill="#FFF0F0" font-family="Arial, cursive">
+                        <a href="#proexp">Professional Experience</a>
+                    </text>
+                </svg>
+                <svg width="200px" height="30px" viewBox="0 0 200 30">
+                    <defs>
+                        <filter id="inset-shadow">
+                            <feOffset dx="0" dy="0" />
+                            <feGaussianBlur stdDeviation="5" result="offset-blur" />
+                            <feComposite operator="out" in="SourceGraphic" in2="offset-blur" result="inverse" />
+                            <feFlood flood-color="black" flood-opacity=".95" result="color" />
+                            <feComposite operator="in" in="color" in2="inverse" result="shadow" />
+                            <feComposite operator="over" in="shadow" in2="SourceGraphic" />
+                        </filter>
+
+                    </defs>
+                    <rect width="200" height="30" fill="#778899" style="filter:url(#inset-shadow)" rx="2" ry="2"></rect>
+                    <text x="20" y="20" fill="#FFF0F0" font-family="Arial, cursive">
+                        <a href="#skills">Skills</a>
+                    </text>
+                </svg>
+                <svg width="200px" height="30px" viewBox="0 0 200 30">
+                    <defs>
+                        <filter id="inset-shadow">
+                            <feOffset dx="0" dy="0" />
+                            <feGaussianBlur stdDeviation="5" result="offset-blur" />
+                            <feComposite operator="out" in="SourceGraphic" in2="offset-blur" result="inverse" />
+                            <feFlood flood-color="black" flood-opacity=".95" result="color" />
+                            <feComposite operator="in" in="color" in2="inverse" result="shadow" />
+                            <feComposite operator="over" in="shadow" in2="SourceGraphic" />
+                        </filter>
+
+                    </defs>
+                    <rect width="200" height="30" fill="#778899" style="filter:url(#inset-shadow)" rx="2" ry="2"></rect>
+                    <text x="20" y="20" fill="#FFF0F0" font-family="Arial, cursive">
+                        <a href="#education">Education</a>
+                    </text>
+                </svg>
+            </div>
+
+            <section id="proexp">
+                <h3 style="color:darkblue"><strong>Professional Experience</strong></h3>
+
+
+                <h4></h4>
+                <img src="../../images/fdm.png" alt="FDM Logo" width="55" height="25"
+                     style="float:left;margin-right:.5em" />
+                <h4>
+                    <p style="float:right"><time datetime="2021-12-20">Dec 2021</time> - <time datetime="2022-05-31">May 2022</time></p>
+                    FDM Group <br />
+                    Consultant
+                </h4>
+
+                <dl>Experience initiative (INIT) software development skills, arttend pond meeting, approach account manager through email</dl>
+
+
+                <h4></h4>
+                <img src="../../images/fdm.png" alt="FDM Logo" width="55" height="25"
+                     style="float:left;margin-right:.5em" />
+                <h4>
+                    <p style="float:right"><time datetime="2021-07-26">July 2021</time> - <time datetime="2021-12-19">Dec 2021</time></p>
+                    FDM Training <br />
+                    Software Development (inc. Dev Ops tools), Training Programme <br />
+                </h4>
+
+
+                <h4></h4>
+                <img src="../../images/" alt="Shangli Logo" width="65" height="25"
+                     style="float:left;margin-right:.5em" />
+                <h4>
+                    <p style="float:right"><time datetime="2019-03-08">Mar 2019</time> - <time datetime="2020-03-09">Mar 2020</time></p>
+                    Compensation Specialist, Assistant Data Analyst <br />
+                    Shangli Information Technology, Shanghai Yanshu Computer Technology <abbr title="Company Limited">Co., Ltd.</abbr>
+                </h4>
+
+                <dl>Engaged in clients' data preparation, transformation and consulting requests in DATA Department.</dl>
+                <ul>
+                    <li>Tracked monthly salary data release, participated in building HR system by updating more than <span class="unique">60</span> unique benchmark job data daily</li>
+                    <li>Formatted salary Survey according to clients' requirements based on the different market sizes, geolocations, and industry scope, saving time spent on searching in bigger datasets</li>
+                    <li>Analysed about <span class="list">4000</span> jobs monthly across all industries to match clients' requests by applying the functional supports provided in Compensation Management Software developed by company</li>
+                </ul>
+
+                <dl>Analysed industry data, conducted market research and prepared monthly industry reports, providing insights and increasing sales growth.</dl>
+                <ol>
+                    <li>Designed the industry research logic for company's report products</li>
+                    <li>Conducted brand sales research, statistical literature research in support of technical department</li>
+                </ol>
+
+                <!--<a href="#flex-head">Back to nav</a>-->
+
+            </section>
+
+            <br />
+            <br />
+
+            <section id="skills">
+
+                <h3 style="color:darkblue"><strong>Skills</strong></h3>
+                <section id="skills1">
+
+                    <h4 style="display:inline-block;border-radius:20px;background-color:black;width:200px;height:20px;color:ivory">&nbsp;&nbsp;&nbsp;&nbsp;English</h4>
+                    <h4 style="display:inline-block;border-radius:20px;background-color:black;width:200px;height:20px;color:ivory">&nbsp;&nbsp;&nbsp;&nbsp;Unix (Company Training)</h4>
+                    <h4 id="home-scratch" style="display:inline-block;border-radius:20px;background-color:black;width:200px;height:20px;color:ivory">&nbsp;&nbsp;&nbsp;&nbsp;Java (Company Training)</h4>
+                    <h4 style="display:inline-block;border-radius:20px;background-color:black;width:200px;height:20px;color:ivory">&nbsp;&nbsp;&nbsp;&nbsp;SQL (Company Training)</h4>
+
+                </section>
+                <section id="skills2">
+                    <h4 style="display:inline-block;border-radius:20px;background-color:black;width:200px;height:20px;color:ivory">&nbsp;&nbsp;&nbsp;&nbsp;Project</h4>
+                    <h4 id="market-data-place" style="display:inline-block;border-radius:20px;background-color:black;width:200px;height:20px;color:ivory">&nbsp;&nbsp;&nbsp;&nbsp;Data Entry</h4>
+                    <h4 id="strategic" style="display:inline-block;border-radius:20px;background-color:black;width:200px;height:20px;color:ivory">&nbsp;&nbsp;&nbsp;&nbsp;Machine Learning</h4>
+                    <h4 style="display:inline-block;border-radius:20px;background-color:black;width:200px;height:20px;color:ivory">&nbsp;&nbsp;&nbsp;&nbsp;Big Data</h4>
+                    <h4 style="display:inline-block;border-radius:20px;background-color:black;width:200px;height:20px;color:ivory">&nbsp;&nbsp;&nbsp;&nbsp;Data Mining</h4>
+                    <h4 style="display:inline-block;border-radius:20px;background-color:black;width:200px;height:20px;color:ivory">&nbsp;&nbsp;&nbsp;&nbsp;Natural Language Processing</h4>
+                </section>
+
+                <!--<a href="#flex-head">Back to nav</a>-->
+
+            </section>
+
+            <br />
+            <br />
+
+            <section id="education">
+                <h3 style="color:darkblue"><strong>Education</strong></h3>
+
+                <h4></h4>
+                <h4>
+                    <p style="float:right"><time datetime="2020-08">Aug 2020</time> - <time datetime="2021-11">Nov 2021</time></p>
+                    MSc (School of Engineering) in Big Data Technology <br />
+                    The Hong Kong University of Science and Technology
+                </h4>
+
+
+                <h4></h4>
+                <h4>
+                    <p style="float:right"><time datetime="2014-08">Aug 2014</time> - <time datetime="2018-07">July 2018</time></p>
+                    BSc in Applied Mathematics <br />
+                    East China University of Science and Technology
+                </h4>
+
+                <!--<a href="#flex-head">Back to nav</a>-->
+            </section>
+        </content>
+
+        <aside id="right">
+            <style>
+                .block-content {
+                    background-color: ivory;
+                }
+
+                    .block-content ul.crumbs li {
+                        display: inline-block;
+                        -moz-transform: scaleX(-1);
+                        -webkit-transform: scaleX(-1);
+                        -o-transform: scaleX(-1);
+                        transform: scaleX(-1);
+                    }
+
+                        .block-content ul.crumbs li:after {
+                            content: "\00bb";
+                        }
+            </style>
+            <div id="side-flex-container">
+                <div class="block-banner" style="width:420px;height:25px;display:flex;flex-direction:column;">
+                    <svg><rect width="1000" height="5" fill="silver"></rect></svg>
+                    <svg><rect width="1000" height="5" fill="darkgrey"></rect></svg>
+                    <svg><rect width="1000" height="5" fill="grey"></rect></svg>
+                    <svg><rect width="1000" height="5" fill="dimgrey"></rect></svg>
+                    <svg><rect width="1000" height="5" fill="black"></rect></svg>
+                </div>
+                <div>
+                    <div class="block-content" style="color:steelblue">
+                        <ul class="crumbs">
+                            <li></li>
+                            <a href="/">   External Links</a> > Columns
+                            <br />
+                            <li></li>
+                            <a href="#">   Attachments</a>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </aside>
+
+    </main>
+
+    <footer>
+
+        <!--Contact Information-->
+        <address style="font-family:cursive;color:#666666;margin:auto;width:30%">
+            Contributed by <small>
+                <a href="mailto:willa.fan@fdmgroup.com">Willa Fan</a>
+                Copyright &copy; 2022.
+            </small>
+        </address>
+        <br />
+
+    </footer>
+
+</body>
+
+</html>
