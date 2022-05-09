@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Global Spread Product - Booking System</title>
+
+    <!--<link rel="shortcut icon" href="../../../images/citi.png" type="image/png" />-->
+    <style>
+        body {
+            font-family: Calibri;
+            font-size: 11px;
+            color: #8A8C8E;
+            display: grid;
+            background: #ADB7DB;
+            grid-template-rows: [header-start] 100px [content-start] 400px [footer-start] 100px;
+            grid-template-columns: [ads] 200px [slide] 100px [main] 1fr [links] 200px;
+            grid-template-areas:
+                "header header header header"
+                "ads slide main links"
+                "footer footer footer footer";
+        }
+        header {
+            grid-area: "header";
+            position: fixed;
+            # background: linear-gradient(180deg, #4AB7EE, #609ED6, #3E7DB5, #2A69A2);
+            width: 100%;
+            height: 10%;
+            top: 0;
+            left: 0;
+        }
+        footer {
+        
+        }
+        content {
+            grid-area: "main";
+            position: fixed;
+            height: 70%;
+            top:10%;
+            left: 0;
+            width: 100%;
+        }
+        aside#left {
+        
+        }
+        aside#right {
+        
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+        <div class="title">
+            <h1><image src="../../../../../../images/smart.png" width="20" height="20" style="float:left;margin-right:.5em;margin-left:1em"></image></h1>
+            <h1 style="color:#4B60AB">Booking System Details</h1>
+        </div>
+        
+
+    </header>
+    <aside id="left"></aside>
+    <content>
+        <table style="color:azure">
+            <thead>
+                <tr style="background:#4B60AB">
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        Booking Number
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Feb&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Apr&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;May&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jun&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jul&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aug&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sep&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Oct&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nov&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dec&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                </tr>
+            </thead>
+            <tbody style="color:#000000">
+                <tr>
+                    <td><a href="#">100000</a></td>
+                    <td><span class="price">1000000.00</span></td>
+                    <td><span class="price">1000000.00</span></td>
+                    <td><span class="price">1000000.00</span></td>
+                    <td><span class="price">1000000.00</span></td>
+                </tr>
+            </tbody>
+        </table>
+  
+    </content>
+    <aside id="right"></aside>
+    <footer></footer>
+</body>
+
+</html>
