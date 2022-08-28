@@ -9,6 +9,8 @@
 		
 		<style>
 			body  {background-color: #FFFFFF;}
+			.button {color: #002D72; border-radius: 290486px; border: 1px solid #002D72; text-align: center; text-decoration: none; box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); padding: 0.8em 1em; font-size: 0.5rem; font-weight: lighter;}
+			
 
 			.banner		{width: 100%; margin-left: auto; margin-right: auto; text-align: center; font-size: smaller; color: #002D72; display: inline-block;}
 			
@@ -27,7 +29,26 @@
 			.col   {text-align: left; width: 30%;line-height: 200%;}
 			.col-l {width: 10%}
 			.col a {text-decoration: none; color: #666666}
+
+
+			.top-right:hover {
+					
+
+
+			}
 		</style>
+
+		<script>
+
+			var demoType = "demo-for-proposal";
+
+			function NewTab() {
+				var d = window.open(
+				"demo.html", "_blank");
+				d.document.writeln("Demo for Proposal" + "<br/>");
+			}
+			
+		</script>
 		
 	</head>
 	<body>
@@ -51,6 +72,24 @@
 				<li>
 					<a href="community.html">社区</a>
 				</li>
+				
+				<!-- Search bar -->
+				<div class="top-right">
+					<li style="float: right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+					<li style="display: inline-flex; float: right">
+						<input class="button" type="text" name="search" placeholder="Search" style="background-color:#E7F4FF; text-align: left;" />
+						<button class="search" style="
+							border:none; background-color: #ffffff;
+						"><img src="images/s1.jpg" height="20px" width="20px"></button>
+					</li>
+					<li style="float: right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+					<li style="float:right;">
+						<a class="button" href="demo.html" style="font-weight:bolder;"> DEMO </a>
+					</li>
+
+				</div>
+				
+				
 				<!-- Subscription -->
 				<!-- Login -->
 			</ul>
@@ -76,7 +115,7 @@
 					</li>
 					<li style="display:inline-flex; color: #002D72;">
 						<img src="images/2.jpg" /> 
-						<div id="project-item2">项目建议书 (Demo)
+						<div id="project-item2">项目建议书  &nbsp;&nbsp;  <button class="button" id="demo-for-proposal" onclick="NewTab()" style="background-color:#ffffff"> Demo for Proposal </button>
 							<p style="color:black;font-weight: lighter;">根据我们的基础项目，为顾客撰写适合的项目建议书。</p>
 						</div>
 					</li>
@@ -87,18 +126,33 @@
 			<div class="software">
 				<h1>软件开发</h1>
 				<br>
-				
+				<ul>
+					<li style="display:inline-flex; color: #002D72;">
+						<img src="images/3.jpg" /> 
+						<div id="software-item1">1.
+							<p style="color:black;font-weight: lighter;"></p>
+						</div>
+					</li>
+					<li style="display:inline-flex; color: #002D72;">
+						<img src="images/5.jpg" /> 
+						<div id="software-item2">2.
+							<p style="color:black;font-weight: lighter;"></p>
+						</div>
+					</li>
+				</ul>
 			</div>
 			
 			<div class="application">
 				<h1>应用程序（接口）</h1>
 				<br>
-				<li style="display:inline-flex; color: #002D72;">
-					<img src="images/4.jpg" /> 
-					<div id="project-item1 (monthly)">自然语言处理
-						<p style="color:black;font-weight: lighter;">基于自然语言的应用程序，</p>
-					</div>
-				</li>
+				<ul>
+					<li style="display:inline-flex; color: #002D72;">
+						<img src="images/4.jpg" /> 
+						<div id="application-item1">自然语言处理
+							<p style="color:black;font-weight: lighter;">基于自然语言的应用程序，</p>
+						</div>
+					</li>
+				</ul>
 			</div>
 
 			<br><br><br><br><br><br><br><br>
@@ -135,6 +189,20 @@
 								<br>
 							</div>
 							<br>
+						<br><br>
+					</div>
+
+					<div class="col">
+						<br><br>
+						兴趣领域
+							<div class="lighter" style="font-weight: lighter;">
+								
+								
+							</div>
+						<br><br>
+						<br><br>
+						<br><br>
+						<br><br>
 						<br><br>
 					</div>
 					
