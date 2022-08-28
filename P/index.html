@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Web Server Internal Page - Project Perspective Web Application</title> 
+		<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Welcome - Project Web Application</title>
+
+		<link rel="shortcut icon" href="images/Logo1.png" type="image/png">
 		
 		<style>
 			body  {background-color: #FFFFFF;}
@@ -10,14 +14,19 @@
 			
 			#logo		{width: 25%; margin-left: auto; margin-right: auto; float: left;}
 			
-			.banner li  {float: left; list-style: none; font-size: 12pt; font-weight: bold;}
+			.banner li  {float: left; list-style: none; font-size: 14pt;}
 			.banner a   {text-decoration: none; color: inherit;}
 			
 			
-			aside  {background-image: url("images/people1.jpg"); background-repeat: no-repeat; background-size: 1600px 100%; left: 0; width: 100%; height: 60%; position: absolute;}
+			aside  {background-image: url("https://ak.picdn.net/shutterstock/videos/6643721/thumb/1.jpg"); background-repeat: no-repeat; background-size: 1600px 100%; left: 0; width: 100%; height: 100%; position: absolute;}
 			#page    {width: 25%; margin: auto; text-align: center; font-size: 36pt; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: #4AB7EE;}
 		
-			content  {top: 500px; position: relative;}
+			content  {top: 750px; width: 100%; margin-left: auto; margin-right: auto; text-align: center; position: relative; color: #4AB7EE; font-weight: bolder;}
+			
+			.footer   {height: 200px; font-weight: lighter; font-family: Arial, Helvetica, sans-serif; color: #666666; font-size: 12pt; clear: both;}
+			.col   {text-align: left; width: 30%;line-height: 200%;}
+			.col-l {width: 10%}
+			.col a {text-decoration: none; color: #666666}
 		</style>
 		
 	</head>
@@ -28,11 +37,19 @@
 			</div>
 			<ul role="menu">
 				<li>
-					<a href="index.html">Home</a>
+					<a href="index.html">主页</a>
 				</li>
 				<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
 				<li>
-					<a href="marketplace.html">Marketplace</a>
+					<a href="marketplace.html">所有项目</a>
+				</li>
+				<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+				<li>
+					<a href="price.html">定价</a>
+				</li>
+				<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+				<li>
+					<a href="community.html">社区</a>
 				</li>
 				<!-- Subscription -->
 				<!-- Login -->
@@ -41,33 +58,92 @@
 		</div>
 		<br>
 		<aside class="top">
-			<span id="page">Project Perspective</span>
+			<span id="page"></span>
 
 		</aside>
 
 		<content>
 			
-			<ul class="" style="display:inline;">
-				<li>
-					<img src="images/1.jpg" />
+			<div class="project">
+				<h1>项目服务</h1>
+				<br>
+				<ul class="project-service" style="display:inline;">
+					<li style="display:inline-flex; color: #002D72;">
+						<img src="images/1.jpg" /> 
+						<div id="project-item1 (monthly)">根据项目的教程
+							<p style="color:black;font-weight: lighter;">我们是Project Owner，顾客选中期待的项目，生成并下载构建项目的教程。</p>
+						</div>
+					</li>
+					<li style="display:inline-flex; color: #002D72;">
+						<img src="images/2.jpg" /> 
+						<div id="project-item2">项目建议书 (Demo)
+							<p style="color:black;font-weight: lighter;">根据我们的基础项目，为顾客撰写适合的项目建议书。</p>
+						</div>
+					</li>
+					
+				</ul>
+			</div>
+			
+			<div class="software">
+				<h1>软件开发</h1>
+				<br>
+				
+			</div>
+			
+			<div class="application">
+				<h1>应用程序（接口）</h1>
+				<br>
+				<li style="display:inline-flex; color: #002D72;">
+					<img src="images/4.jpg" /> 
+					<div id="project-item1 (monthly)">自然语言处理
+						<p style="color:black;font-weight: lighter;">基于自然语言的应用程序，</p>
+					</div>
 				</li>
-				<li>
-					<img src="images/2.jpg" />
-				</li>
-				<li>
-					<img src="images/3.jpg" />
-				</li>
+			</div>
 
-				<li>
-					<img src="images/1.jpg" />
-				</li>
-				<li>
-					<img src="images/2.jpg" />
-				</li>
-				<li>
-					<img src="images/3.jpg" />
-				</li>
-			</ul>
+			<br><br><br><br><br><br><br><br>
+			
+			<div class="footer">
+				<hr style="background-color:#BBDFFF"/>
+
+				<div id="footer-1" style="display:flex">
+
+					<div class="col-l">
+
+
+					</div>
+
+					<div class="col" >
+						<br><br>
+						<a href="profile.html">关于</a>
+						<br> 联系我们
+						<br><br><br><br><br><br>
+						<span style="font-size:10pt">&copy <time datetime="2022-08-28">Aug 2022</time>. All rights reserved.</span>
+						<br><br>
+					</div>
+					
+					<div class="col">
+						<br><br>
+						项目用途
+							<div class="lighter" style="font-weight: lighter;">
+								<a id="Initializr" href="#">编程初始</a> <br>
+								<a id="Repository" href="#">仓库</a> <br>
+								<a id="Leverage" href="#">标杆</a> <br>
+								<a id="Skeleton" href="#">纲要</a> <br>
+								<br>
+								<br>
+								<br>
+							</div>
+							<br>
+						<br><br>
+					</div>
+					
+					<div class="col">
+						<br><br>
+					</div>
+				</div>
+				
+			</div>
 		</content>
 	</body>
 </html>
