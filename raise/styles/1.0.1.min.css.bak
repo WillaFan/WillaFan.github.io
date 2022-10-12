@@ -1,0 +1,21 @@
+ 
+ body {
+	 
+	background-color: #002D72;
+	font-family: Arial; font-size: 11pt;
+	
+	display: grid; grid-template-rows: 20% 60% 20%;	grid-template-columns: 25% 50% 25%;
+	
+	grid-template-areas: "header header header" "ads main links" "footer footer footer";
+	
+	
+ }
+ 
+ header {
+	 
+	grid-area: header; position: fixed; 
+	
+	background: linear-gradient(180deg, #4AB7EE, #609ED6, #3E7DB5, #2A69A2);
+	color: #FFFFFF; font-family: Calibri; font-size: 18pt;
+	top: 0; left: 0; width: 100%; height: 10%;
+ }

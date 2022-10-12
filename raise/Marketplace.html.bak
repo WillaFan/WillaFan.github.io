@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+		
+		<link rel="stylesheet" type="text/css" href="styles/1.0.1.min.css"></link>
+		
+		<script defer type="text/javascript" src=""></script>
+		
+		<link rel="shortcut icon" href="imgs/logo.png" type="imgs/logo.png">
+		<title> Welcome to Marketplace </title>
+		
+		<style>
+			
+			.left-flex  {
+							grid-area: ads; position: absolute; left: 2%; top: 15%; }
+			.content-topics  {
+								grid-area: main; position: absolute; left: 20%; right: 20%; top: 10%; }
+			.right-flex  {
+							grid-area: links; position: absolute; left: 80%; top: 15%; }
+		
+		</style>
+	</head>
+	<body>
+	
+		<section class="one">
+		
+			<!-- Header -->
+			<header>
+			
+				<h1> Marketplace </h1>
+			</header>
+		
+		</section>
+		
+		<section class="two">
+		
+			<div class="left-flex">
+				
+				<a href="Colab.html"> <h1> To Collaboration </h1> </a>
+				
+				<div class="market-product-choice" style="display: flex; flex-direction: row; flex-wrap: wrap">
+					
+					<a href="Order.html" > <div class="container-button" style="height:100px; width:200px; border-radius: 5px; background: linear-gradient(to bottom, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);"> <h4 style="text-align: center; line-height: 80px;"> Oracle SQL Server </h4> </div> </a> &nbsp;
+					<a href="Order.html" > <div class="container-button" style="height:100px; width:200px; border-radius: 5px; background: linear-gradient(to bottom, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);"> <h4 style="text-align: center; line-height: 80px;"> Oracle SQL Server </h4> </div> </a> &nbsp;
+					<a href="Order.html" > <div class="container-button" style="height:100px; width:200px; border-radius: 5px; background: linear-gradient(to bottom, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);"> <h4 style="text-align: center; line-height: 80px;"> Oracle SQL Server </h4> </div> </a> &nbsp;
+					<a href="Order.html" > <div class="container-button" style="height:100px; width:200px; border-radius: 5px; background: linear-gradient(to bottom, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);"> <h4 style="text-align: center; line-height: 80px;"> Oracle SQL Server </h4> </div> </a> &nbsp;
+					<a href="Order.html" > <div class="container-button" style="height:100px; width:200px; border-radius: 5px; background: linear-gradient(to bottom, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);"> <h4 style="text-align: center; line-height: 80px;"> Oracle SQL Server </h4> </div> </a> &nbsp;
+					<a href="Order.html" > <div class="container-button" style="height:100px; width:200px; border-radius: 5px; background: linear-gradient(to bottom, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);"> <h4 style="text-align: center; line-height: 80px;"> Oracle SQL Server </h4> </div> </a> &nbsp;
+					<a href="Order.html" > <div class="container-button" style="height:100px; width:200px; border-radius: 5px; background: linear-gradient(to bottom, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);"> <h4 style="text-align: center; line-height: 80px;"> Oracle SQL Server </h4> </div> </a> &nbsp;
+					<a href="Order.html" > <div class="container-button" style="height:100px; width:200px; border-radius: 5px; background: linear-gradient(to bottom, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);"> <h4 style="text-align: center; line-height: 80px;"> Oracle SQL Server </h4> </div> </a> &nbsp;
+					<a href="Order.html" > <div class="container-button" style="height:100px; width:200px; border-radius: 5px; background: linear-gradient(to bottom, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);"> <h4 style="text-align: center; line-height: 80px;"> Oracle SQL Server </h4> </div> </a> &nbsp;
+					<a href="Order.html" > <div class="container-button" style="height:100px; width:200px; border-radius: 5px; background: linear-gradient(to bottom, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);"> <h4 style="text-align: center; line-height: 80px;"> Oracle SQL Server </h4> </div> </a> &nbsp;
+					<a href="Order.html" > <div class="container-button" style="height:100px; width:200px; border-radius: 5px; background: linear-gradient(to bottom, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%);"> <h4 style="text-align: center; line-height: 80px;"> Oracle SQL Server </h4> </div> </a> &nbsp;
+					
+				
+				
+				</div>
+				
+				
+				
+				
+			</div>
+			
+			<div class="content-topics">
+				
+				
+				
+			
+			</div>
+			
+			<div class="right-flex">
+				
+				
+				
+				
+			</div>
+			
+		
+		</section>
+		
+	
+	</body>
+</html>
