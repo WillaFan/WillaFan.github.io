@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Welcome - Project Web Application</title>
+
+		<link rel="shortcut icon" href="images/logo.png" type="image/png">
+		
+		<style>
+			body  {background-color: #FFFFFF;}
+			.button {color: #002D72; border-radius: 290486px; border: 1px solid #002D72; text-align: center; text-decoration: none; box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); padding: 0.8em 1em; font-size: 0.5rem; font-weight: lighter;}
+			
+
+			.banner		{width: 100%; margin-left: auto; margin-right: auto; text-align: center; font-size: smaller; color: #002D72; display: inline-block;}
+			
+			#logo		{width: 25%; margin-left: auto; margin-right: auto; float: left;}
+			
+			.banner li  {float: left; list-style: none; font-size: 14pt;}
+			.banner a   {text-decoration: none; color: inherit;}
+			
+			
+			aside  {background-image: url("https://ak.picdn.net/shutterstock/videos/6643721/thumb/1.jpg"); background-repeat: no-repeat; background-size: 1600px 100%; left: 0; width: 100%; height: 100%; position: absolute;}
+			#page    {width: 25%; margin: auto; text-align: center; font-size: 36pt; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: #4AB7EE;}
+		
+			content  {top: 750px; width: 100%; margin-left: auto; margin-right: auto; text-align: center; position: relative; color: #4AB7EE; font-weight: bolder;}
+			
+			.footer   {height: 200px; font-weight: lighter; font-family: Arial, Helvetica, sans-serif; color: #666666; font-size: 12pt; clear: both;}
+			.col   {text-align: left; width: 30%;line-height: 200%;}
+			.col-l {width: 10%}
+			.col a {text-decoration: none; color: #666666}
+
+			#demo-submit  {background-color:#4AB7EE; color:#FFFFFF; font-weight: bolder; border: none; outline: none; border-radius: 290486px; font-size: 15pt; width: 400px;height: 50px}
+			#demo-submit:hover {
+				border:1px solid #002D72;
+				color:#002D72;
+				font-weight: bolder;
+			}
+
+			#test-d { display: none; }
+			#test-c { display: none; }
+		</style>
+
+		<script type="text/javascript">
+
+			
+
+			function NewTab() {
+				
+			}
+			
+			function search() {		}
+
+
+			function dTest()  { document.getElementById("test-d").style.display = "block"; }
+			function ddTest() {
+				var e = document.getElementById("test-dd");
+				if (e.style.display == "none") {
+					e.style.display = "block";
+				} else {
+					e.style.display = "none";
+				}
+			}
+			function cTest()  {
+				var e = document.getElementById("test-c");
+				if (e.style.display == "none") {
+					e.style.display = "block";
+				} else {
+					e.style.display = "none";
+				}
+			}
+
+		</script>
+		
+	</head>
+	<body>
+		<div class="banner">
+			<div id="logo">
+				<img src="images/Logo1.png" height="50px" alt="logo.jpg" />
+			</div>
+			<ul role="menu">
+				<li>
+					<a href="index.html">主页</a>
+				</li>
+				<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+				<li>
+					<a href="marketplace.html">所有项目</a>
+				</li>
+				<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+				<li>
+					<a href="price.html">定价</a>
+				</li>
+				<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+				<li>
+					<a href="community.html">社区</a>
+				</li>
+				
+				<!-- Search bar -->
+				<div class="top-right">
+					<li style="float: right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+					<li style="display: inline-flex; float: right">
+						<input class="button" type="text" name="search" placeholder="Search" style="background-color:#E7F4FF; outline:none; text-align: left;" />
+						<button class="search" style="
+							border:none; background-color: #ffffff;
+						"><img src="images/s2.jpg" height="20px" width="20px"></button>
+					</li>
+					<li style="float: right">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+					<li style="float:right;">
+						<button class="button" onclick="dTest()" style="font-weight:bolder;background-color: #ffffff;"> DEMO </button>
+					</li>
+
+				</div>
+				
+				
+				<!-- Subscription -->
+				<!-- Login -->
+			</ul>
+			
+		</div>
+		<br>
+		<aside class="top">
+			<span id="page"></span>
+
+		</aside>
+
+		<content>
+			
+			<div class="project">
+				<h1>项目服务</h1>
+				<br>
+				<ul class="project-service" style="display:inline;">
+					<li style="display:inline-flex; color: #002D72;">
+						<img src="images/1.jpg" /> 
+						<div id="project-item1 (monthly)">根据项目的教程
+							<p style="color:black;font-weight: lighter;">我们是Project Owner，顾客选中期待的项目，生成并下载构建项目的教程。</p>
+						</div>
+					</li>
+					<li style="display:inline-flex; color: #002D72;">
+						<img src="images/2.jpg" /> 
+						<div id="project-item2">项目建议书  &nbsp;&nbsp;  <button class="button" style="background-color:#ffffff" onclick="dTest()" > Demo for Proposal </button>
+							<p style="color:black;font-weight: lighter;">根据我们的基础项目，为顾客撰写适合的项目建议书。</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="software">
+				<h1>软件开发</h1>
+				<br>
+				<ul>
+					<li style="display:inline-flex; color: #002D72;">
+						<img src="images/3.jpg" /> 
+						<div id="software-item1">1.
+							<p style="color:black;font-weight: lighter;"></p>
+						</div>
+					</li>
+					<li style="display:inline-flex; color: #002D72;">
+						<img src="images/5.jpg" /> 
+						<div id="software-item2">2.
+							<p style="color:black;font-weight: lighter;"></p>
+						</div>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="application">
+				<h1>应用程序（接口）</h1>
+				<br>
+				<ul>
+					<li style="display:inline-flex; color: #002D72;">
+						<img src="images/4.jpg" /> 
+						<div id="application-item1">自然语言处理
+							<p style="color:black;font-weight: lighter;">基于自然语言的应用程序，</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+
+			<br><br><br><br><br><br><br><br>
+
+				<!-- hidden operations -->
+				<div class="demo-form" id="test-d">
+					<div id="test-dd">
+						
+						<legend style="color:#002D72;font-size:15pt;font-weight:bolder">Demo for Proposal</legend>
+						<p style="color:#000000;font-size:12pt;font-weight:lighter">选择类型的展示申请，获得直接下载或展示邮件。</p>
+						<ul style="display:inline; flex-direction:column; margin:auto">
+							<li>
+								<label>Name</label>
+								<input type="text" style="height:30px; width:250px; background-color:#E7F4FF; border: none; outline: none; border-radius: 2px;">
+							</li>
+							<br>
+							<li>
+								<label>Company</label>
+								<input type="text" style="height:30px; width:250px; background-color:#E7F4FF; border: none; outline: none; border-radius: 2px;">
+							</li>
+							<br>
+							<li>
+								<label>Email</label>
+								<input type="text" style="height:30px; width:250px; background-color:#E7F4FF; border: none; outline: none; border-radius: 2px;">
+							</li>
+							<br>
+
+							<input type="text" value="Select demo for which..." style="height:30px; width:250px; background-color:#E7F4FF; color:#A6A6A6; border: none; outline: none; border-radius: 2px;">
+						</ul>
+
+						<div class="custom-select">
+							<select style="height:30px; width:150px; background-color:#E7F4FF; border: none; outline: none; margin:auto">
+							<option value="0">Demo for Proposal</option>
+							<option value="1">Demo for </option>
+							
+							</select>
+						</div>
+
+					</div>
+					
+					<input id="demo-submit" onclick="ddTest()" type="submit" value="Submit/Another submit">
+					<br><br>
+				</div>
+
+				<div class="contact-card" id="test-c" style="display:none; height:12rem; width:25rem; border: 1px solid #A6A6A6; color: Black; margin:auto; border-radius: 20px; padding: 0.8em 1em;">
+					<h3>联系方式</h3>
+					<p style="font-weight:lighter">
+						<a href="mailto:15800522416@163.com" style="text-decoration:none;">Willa Fan</a>
+						，中国 上海
+					</p>
+				</div>
+
+
+			<br><br><br><br>
+			
+			<div class="footer">
+				<hr style="background-color:#A6A6A6"/>
+
+				<div id="footer-1" style="display:flex">
+
+					<div class="col-l">
+
+
+					</div>
+
+					<div class="col" >
+						<br><br>
+						<a href="profile.html">关于</a>
+						<br> <span id="contact" onclick="cTest()">联系我们</span>
+						<br><br><br><br><br><br>
+						<span style="font-size:10pt">&copy <time datetime="2022-08-28">Aug 2022</time>. All rights reserved.</span>
+						<br><br>
+					</div>
+					
+					<div class="col">
+						<br><br>
+						项目用途
+							<div class="lighter" style="font-weight: lighter;">
+								<a id="Initializr" href="#">编程初始</a> <br>
+								<a id="Repository" href="#">仓库</a> <br>
+								<a id="Leverage" href="#">标杆</a> <br>
+								<a id="Skeleton" href="#">纲要</a> <br>
+								<br>
+								<br>
+								<br>
+							</div>
+							<br>
+						<br><br>
+					</div>
+
+					<div class="col">
+						<br><br>
+						兴趣领域
+							<div class="lighter" style="font-weight: lighter;">
+								
+								
+							</div>
+						<br><br>
+						<br><br>
+						<br><br>
+						<br><br>
+						<br><br>
+					</div>
+					
+					<div class="col">
+						<br><br>
+					</div>
+				</div>
+			</div>
+		</content>
+
+	</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link rel="stylesheet" type="text/css" href="styles/1.0.1.min.css"></link>
+		
+		<script defer type="text/javascript" src=""></script>
+		
+		
+		<title> Welcome to IWIKI </title>
+		
+		<style>
+		
+			.banner		{width: 50%; margin-left: auto; margin-right: auto; text-align:center; font-size: smaller; color: blue
+							grid-area: main; position: fixed;}
+
+			.banner p	{width: 95%; margin-left: auto; margin-right: auto; text-align: center; color: green; font-weight: bold;}
+			
+			#logo		{width: 25%; margin-left: auto; margin-right: auto;}
+			
+			
+			.left-flex  {
+							grid-area: ads; position: absolute; left: 2%; top: 15%; }
+			.content-topics  {
+								grid-area: main; position: absolute; left: 20%; right: 20%; top: 10%; }
+			.right-flex  {
+							grid-area: links; position: absolute; left: 80%; top: 15%; }
+		
+		</style>
+	</head>
+	<body>
+		<!-- Srouce: FDMGROUP
+				Grid layout
+				div session
+				JSExamples -->
+		
+		
+		<section class="one">
+		
+		<!-- Header -->
+		<header>
+		
+			IWIKI
+		</header>
+		
+		<div class="banner">
+			<p class="banner">Web Application Design - Web Server</p>
+			<div id="logo">
+				<img src="images/fdm-logo.gif" />
+			</div>
+			<p>index.html - appears when you do not specify an actual page in the url address</p>
+					
+		</div>
+		
+		</section>
+		
+		<section class="two">
+		
+			<div class="left-flex">
+				<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=glOkWCW86EGcIlkUGYi-mjEmjRoRVx1PniPVESFK4clUMTcwNjZQQkoyNEg5V1FUUTEyS1NXWFNLSS4u">Daily Attendance Check-in Form</a>
+		
+			
+			</div>
+			
+			<div class="content-topics">
+				
+				<div class="groups-title" style="display:flex">	
+					<img src="imgs/Sourcetree-icon-blue.svg" height="20px" width="20px" style="top:50" /> <h2 style="color:#2A69A2">Groups Information</h2> </br>
+				</div>
+				
+				
+				<div class="links-to-group" style="display:flex">
+					
+					<div class="group01" style="display:flex-columns">
+						<img src="imgs/P1.jpg" height="200px" width="150px" />
+						<h4 style="color:#7030A0"> Gsp Smart </h4>
+						<p> Group information description begins here... </p>
+					
+					</div>
+					
+					<div class="group01" style="display:flex-columns">
+						<img src="imgs/P1.jpg" height="200px" width="150px" />
+						<h4 style="color:#7030A0"> Gsp Smart </h4>
+						<p> Group information description begins here... </p>
+					
+					</div>
+					
+					<div class="group01" style="display:flex-columns">
+						<img src="imgs/P1.jpg" height="200px" width="150px" />
+						<h4 style="color:#7030A0"> Gsp Smart </h4>
+						<p> Group information description begins here... </p>
+					
+					</div>
+					
+				
+				</div>
+			
+				<div class="stat-metrics" style="display:flex; color:#2A69A2">
+				
+					<h2> Metrics </h2> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <h2> Metrics </h2> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <h2> Metrics </h2> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <h2> Metrics </h2>
+				
+				</div>
+			
+			
+				<h4 style="color:#2A69A2">
+					<a herf=""> Topic title 1 begins here Get a Free JavaScript Download - ThoughtCo </a>
+				</h4>
+				<p>
+					description begins here. Apr 20, 2018 · There is no need to pay for scripts written in JavaScript, because just about any script imaginable is available somewhere as a free JavaScript download. What you need to be careful of, though, is to obtain them from a site …
+				</p>
+				
+				
+				<h4 style="color:#2A69A2">
+					<a herf=""> Topic title 2 begins by customized replication </a>
+				</h4>
+				<p>
+					description begins here. Apr 20, 2018 · There is no need to pay for scripts written in JavaScript, because just about any script imaginable is available somewhere as a free JavaScript download. What you need to be careful of, though, is to obtain them from a site …
+				</p>
+			
+			</div>
+			
+			<div class="right-flex">
+				<input type="text" placeholder="Search text" style="text-align:left">
+			
+				<h3> Related links </h3>
+			
+				<a href=""> Typescript is a scalable library over javascript </a>
+			
+			
+			</div>
+			
+		
+		</section>
+		
+	
+	</body>
+</html>
