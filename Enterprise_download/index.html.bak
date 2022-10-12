@@ -8,13 +8,13 @@
 		
 		<script defer type="text/javascript" src=""></script>
 		
-		<link rel="shortcut icon" href="images/logo.png" type="imgs/logo.png">
+		<link rel="shortcut icon" href="imgs/logo.png" type="imgs/logo.png">
 		<title> [Internal] download page </title>
 		
 		<style>
 			
 			.left-flex  {	border-right: solid; border-width: 2px;
-							grid-area: ads; position: absolute; left: 2%; top: 0%; width: 15%; height: 100%; }
+							grid-area: ads; position: absolute; left: 2%; top: 10%; width: 15%; height: 100%; }
 			.content-topics  {
 								grid-area: main; position: absolute; left: 20%; right: 20%; top: 10%; }
 			.right-flex  {
