@@ -13,7 +13,7 @@
  
  header {
 	 
-	grid-area: header; position: fixed; 
+	grid-area: header; position: fixed; z-index: 999;
 	
 	background: linear-gradient(180deg, #4AB7EE, #609ED6, #3E7DB5, #2A69A2);
 	color: #FFFFFF; font-family: Verdana; font-size: 18px;
