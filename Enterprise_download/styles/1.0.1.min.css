@@ -13,7 +13,7 @@
  
  header {
 	 
-	grid-area: header; position: fixed; 
+	grid-area: header; position: fixed; z-index: 999;
 	
 	background: #000000;
 	color: #FFFFFF; font-weight: bolder; font-family: Arial; size: 18pt;
