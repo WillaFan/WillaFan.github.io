@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+		
+		<link rel="stylesheet" type="text/css" href="styles/1.0.1.min.css"></link>
+		
+		<script defer type="text/javascript" src=""></script>
+		
+		<link rel="shortcut icon" href="imgs/logo.png" type="imgs/logo.png">
+		<title> Welcome to Collaboration Tools </title>
+		
+		<style>
+			
+			.left-flex  {
+							grid-area: ads; position: absolute; left: 2%; top: 15%; }
+			.content-topics  {
+								grid-area: main; position: absolute; left: 20%; right: 20%; top: 10%; }
+			.right-flex  {
+							grid-area: links; position: absolute; left: 85%; top: 15%; }
+		
+		</style>
+	</head>
+	<body>
+	
+		<section class="one">
+		
+			<!-- Header -->
+			<header>
+			
+				<h1> Collaboration </h1>
+				
+				<h5 style="right:0px;position:fixed;top:2%"> <i> Be brave and try! As we can <i> </h5>
+			</header>
+		
+		</section>
+		
+		<section class="two">
+		
+			<div class="left-flex">
+				<img src="imgs/dum-ads.png" height=100% width=100% />
+				
+				
+				
+			</div>
+			
+			<div class="content-topics" style="display: flex; flex-direction: column">
+				
+				<div class="place-holder" style="height:10px"></div>
+			
+				<div class="one">
+					<a href="Marketplace.html" > <div class="container-button" style="height:100px; width:200px; border-radius: 5px; background: linear-gradient(to bottom, #2E75B6 0%, #3E7DB5 50%, #0070C0 51%, #002060 100%)"> <h1 style="text-align: center; line-height: 100px"> Marketplace </h1> </div> </a>
+					
+					
+				</div>
+			
+			
+				<div class="two" style="top: 150px; position: absolute">
+					
+					<div class="banner-tools" style="display: flex;"> 
+					
+						<div class="wrapper" style="width:200px;height:200px;background-color:#5B9BD5;"> <div class="wrapper-in" style="width:180px;height:180px;background-color:#4472C4;top:10px;left:10px;"> <img src="imgs/teams.jpg" width="100px" height="100px" style="left:23%;top:10%;z-index:99" /> <br> <a href="" style="text-align: center; bottom: 5%; z-index:99"> Microsoft Teams </p> </div> </div>
+						
+						<div class="wrapper" style="width:200px;height:200px;background-color:#5B9BD5;"> <div class="wrapper-in" style="width:180px;height:180px;background-color:#4472C4;top:10px;left:10px;"> <img src="imgs/zoom.jpg" width="100px" height="100px" style="left:23%;top:10%;z-index:99" /> <br> <a href="" style="text-align: center; bottom: 5%; z-index:99"> Zoom Enterprise* </p> </div> </div>
+						
+						<div class="wrapper" style="width:200px;height:200px;background-color:#5B9BD5;"> <div class="wrapper-in" style="width:180px;height:180px;background-color:#4472C4;top:10px;left:10px;"> <img src="imgs/skype.jpg" width="100px" height="100px" style="left:23%;top:10%;z-index:99" /> <br> <a href="" style="text-align: center; bottom: 5%; z-index:99"> Skype </p> </div> </div>
+						
+						<div class="wrapper" style="width:200px;height:200px;background-color:#5B9BD5;"> <div class="wrapper-in" style="width:180px;height:180px;background-color:#4472C4;top:10px;left:10px;"> <img src="imgs/slack.jpg" width="100px" height="100px" style="left:23%;top:10%;z-index:99" /> <br> <a href="" style="text-align: center; bottom: 5%; z-index:99"> Slack </p> </div> </div>
+						
+						
+					</div>
+					
+					<div class="banner-tools" style="display: flex;"> 
+					
+						<div class="wrapper" style="width:200px;height:200px;background-color:#5B9BD5;"> <div class="wrapper-in" style="width:180px;height:180px;background-color:#4472C4;top:10px;left:10px;"> <img src="imgs/messenger.jpg" width="100px" height="100px" style="left:23%;top:10%;z-index:99" /> <br> <a href="" style="text-align: center; bottom: 5%; z-index:99"> Messenger </p> </div> </div>
+						
+						<div class="wrapper" style="width:200px;height:200px;background-color:#5B9BD5;"> <div class="wrapper-in" style="width:180px;height:180px;background-color:#4472C4;top:10px;left:10px;"> <img src="imgs/wechat.jpg" width="100px" height="100px" style="left:23%;top:10%;z-index:99" /> <br> <a href="" style="text-align: center; bottom: 5%; z-index:99"> WeChat </p> </div> </div>
+						
+						<div class="wrapper" style="width:200px;height:200px;background-color:#5B9BD5;"> <div class="wrapper-in" style="width:180px;height:180px;background-color:#4472C4;top:10px;left:10px;"> <img src="imgs/outlook.jpg" width="100px" height="100px" style="left:23%;top:10%;z-index:99" /> <br> <a href="" style="text-align: center; bottom: 5%; z-index:99"> Outlook </p> </div> </div>
+						
+						<div class="wrapper" style="width:200px;height:200px;background-color:#5B9BD5;"> <div class="wrapper-in" style="width:180px;height:180px;background-color:#4472C4;top:10px;left:10px;"> <img src="imgs/" width="100px" height="100px" style="left:23%;top:10%;z-index:99" /> <br> <a href="" style="text-align: center; bottom: 5%; z-index:99">  </p> </div> </div>
+						
+						
+					</div>
+					
+				</div>
+			
+				<div class="banner-introduction" style="color: white; top: 600px; position: absolute">
+					<br><br>
+					<h2> Business Communication </h2>
+					<p>
+						Important notes
+						<ul>
+							<li></li>
+						</ul>
+					</p>
+				</div>
+			
+			</div>
+			
+			<div class="right-flex">
+				<img src="imgs/dum-ads.png" height=100% width=100% />
+				
+				
+				
+			</div>
+			
+		
+		</section>
+		
+	
+	</body>
+</html>
