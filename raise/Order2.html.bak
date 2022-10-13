@@ -59,12 +59,26 @@
 				
 				<br><br><br>
 				
+				
+				
 				<div class="order-page-block" style="background-color:#F5FFFA; width:1200px; border-radius: 5px">
 				
 					<p><i>
 						<br>
-						&nbsp;		Questionnaire 1 </br>
-						&nbsp;		Choose your backup staff or supervisor. </br></br>
+						&nbsp;		Questionnaire 4 </br>
+						&nbsp;		Choose your office location. </br></br>
+						&nbsp;		<input type="text" placeholder=""> </br>
+						</br>
+					</i></p>
+				</div>
+				<button type="submit" class="btn btn-primary btn-lg" id="get-rate-submit-button" style="height:50px; width:80px; border-radius: 5px; border: none; background: linear-gradient(to bottom, #82A1D8 0%, #3E7DB5 50%, #0070C0 51%, #2F74FF 100%)" >submit</button>
+				
+				<div class="order-page-block" style="background-color:#F5FFFA; width:1200px; border-radius: 5px">
+				
+					<p><i>
+						<br>
+						&nbsp;		Questionnaire 5 </br>
+						&nbsp;		Choose your Zip code. </br></br>
 						&nbsp;		<input type="text" placeholder=""> </br>
 						</br>
 					</i></p>
@@ -76,35 +90,20 @@
 				
 					<p><i>
 						<br>
-						&nbsp;		Questionnaire 2 </br>
-						&nbsp;		Choose your operation systems. </br></br>
+						&nbsp;		Questionnaire 6 </br>
+						&nbsp;		Choose your environments (local/ production/ cloud). </br></br>
 						&nbsp;		<input type="text" placeholder=""> </br>
 						</br>
 					</i></p>
 				</div>
 				<button type="submit" class="btn btn-primary btn-lg" id="get-rate-submit-button" style="height:50px; width:80px; border-radius: 5px; border: none; background: linear-gradient(to bottom, #82A1D8 0%, #3E7DB5 50%, #0070C0 51%, #2F74FF 100%)" >submit</button>
-				
-				
-				<div class="order-page-block" style="background-color:#F5FFFA; width:1200px; border-radius: 5px">
-				
-					<p><i>
-						<br>
-						&nbsp;		Questionnaire 3 </br>
-						&nbsp;		Choose your realm (ASPAC/ NAM/ EUR). </br></br>
-						&nbsp;		<input type="text" placeholder=""> </br>
-						</br>
-					</i></p>
-				</div>
-				<button type="submit" class="btn btn-primary btn-lg" id="get-rate-submit-button" style="height:50px; width:80px; border-radius: 5px; border: none; background: linear-gradient(to bottom, #82A1D8 0%, #3E7DB5 50%, #0070C0 51%, #2F74FF 100%)" >submit</button>
-				
-				
-				
 				
 				
 				
 				
 				</br></br></br>
-				<a href="Order2.html" style="color: #B4C7E7"> Next page </a> <br><br>
+				<a href="Order.html" style="color: #B4C7E7"> Previous page </a> <br><br>
+				<a href="Order3.html" style="color: #B4C7E7"> Next page </a> <br><br>
 				<a href="Marketplace.html" style="color: #B4C7E7"> Back to Marketplace </a> </br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
 			
 			</div>

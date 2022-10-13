@@ -39,13 +39,73 @@
 		
 			<div class="left-flex">
 				
+				<h3 style="color:#FFFFFF; font: Calibri"> News & Notifications </h3>    <mark style="font-family: SimSun; color: red"> 最热!~ </mark> </br>
+				
+				<a href="" style="color:#FFFFFF" > <i> has been updated! </i> </a>
+				
+				
+				
+				
+				
+				
 				
 			</div>
 			
 			<div class="content-topics">
 				
-				<h2 style="color: #002060"> Place your order </h2>
+				<h2 style="color: #94AEDC"> Place your order </h2>
 				
+				<div class="banner-picture" style="display:flex"> <img src="imgs/banner.jpg" height="300px" width="500px" /> <img src="imgs/banner2.jpg" height="300px" width="500px" /> <img src="imgs/banner3.jpg" height="300px" width="500px" /> </div>
+				
+				<br><br><br>
+				
+				<div class="order-page-block" style="background-color:#F5FFFA; width:1200px; border-radius: 5px">
+				
+					<p><i>
+						<br>
+						&nbsp;		Questionnaire 1 </br>
+						&nbsp;		Choose your backup staff or supervisor. </br></br>
+						&nbsp;		<input type="text" placeholder=""> </br>
+						</br>
+					</i></p>
+				</div>
+				<button type="submit" class="btn btn-primary btn-lg" id="get-rate-submit-button" style="height:50px; width:80px; border-radius: 5px; border: none; background: linear-gradient(to bottom, #82A1D8 0%, #3E7DB5 50%, #0070C0 51%, #2F74FF 100%)" >submit</button>
+				
+				
+				<div class="order-page-block" style="background-color:#F5FFFA; width:1200px; border-radius: 5px">
+				
+					<p><i>
+						<br>
+						&nbsp;		Questionnaire 2 </br>
+						&nbsp;		Choose your operation systems. </br></br>
+						&nbsp;		<input type="text" placeholder=""> </br>
+						</br>
+					</i></p>
+				</div>
+				<button type="submit" class="btn btn-primary btn-lg" id="get-rate-submit-button" style="height:50px; width:80px; border-radius: 5px; border: none; background: linear-gradient(to bottom, #82A1D8 0%, #3E7DB5 50%, #0070C0 51%, #2F74FF 100%)" >submit</button>
+				
+				
+				<div class="order-page-block" style="background-color:#F5FFFA; width:1200px; border-radius: 5px">
+				
+					<p><i>
+						<br>
+						&nbsp;		Questionnaire 3 </br>
+						&nbsp;		Choose your realm (ASPAC/ NAM/ EUR). </br></br>
+						&nbsp;		<input type="text" placeholder=""> </br>
+						</br>
+					</i></p>
+				</div>
+				<button type="submit" class="btn btn-primary btn-lg" id="get-rate-submit-button" style="height:50px; width:80px; border-radius: 5px; border: none; background: linear-gradient(to bottom, #82A1D8 0%, #3E7DB5 50%, #0070C0 51%, #2F74FF 100%)" >submit</button>
+				
+				
+				
+				
+				
+				
+				
+				</br></br></br>
+				<a href="Order2.html" style="color: #B4C7E7"> Next page </a>
+				<a href="Marketplace.html" style="color: #B4C7E7"> Back to Marketplace </a> </br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
 			
 			</div>
 			
