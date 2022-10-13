@@ -59,12 +59,28 @@
 				
 				<br><br><br>
 				
+				
+				
+				
+				
 				<div class="order-page-block" style="background-color:#F5FFFA; width:1200px; border-radius: 5px">
 				
 					<p><i>
 						<br>
-						&nbsp;		Questionnaire 1 </br>
-						&nbsp;		Choose your backup staff or supervisor. </br></br>
+						&nbsp;		Questionnaire 7 </br>
+						&nbsp;		Choose what software do you want to install. </br>
+						&nbsp;		<input type="text" placeholder=""> </br>
+						</br>
+					</i></p>
+				</div>
+				<button type="submit" class="btn btn-primary btn-lg" id="get-rate-submit-button" style="height:50px; width:80px; border-radius: 5px; border: none; background: linear-gradient(to bottom, #82A1D8 0%, #3E7DB5 50%, #0070C0 51%, #2F74FF 100%)" >submit</button>
+				
+				<div class="order-page-block" style="background-color:#F5FFFA; width:1200px; border-radius: 5px">
+				
+					<p><i>
+						<br>
+						&nbsp;		Questionnaire 8 </br>
+						&nbsp;		Choose the version of your software to be installed. </br>
 						&nbsp;		<input type="text" placeholder=""> </br>
 						</br>
 					</i></p>
@@ -72,39 +88,13 @@
 				<button type="submit" class="btn btn-primary btn-lg" id="get-rate-submit-button" style="height:50px; width:80px; border-radius: 5px; border: none; background: linear-gradient(to bottom, #82A1D8 0%, #3E7DB5 50%, #0070C0 51%, #2F74FF 100%)" >submit</button>
 				
 				
-				<div class="order-page-block" style="background-color:#F5FFFA; width:1200px; border-radius: 5px">
-				
-					<p><i>
-						<br>
-						&nbsp;		Questionnaire 2 </br>
-						&nbsp;		Choose your operation systems. </br></br>
-						&nbsp;		<input type="text" placeholder=""> </br>
-						</br>
-					</i></p>
-				</div>
-				<button type="submit" class="btn btn-primary btn-lg" id="get-rate-submit-button" style="height:50px; width:80px; border-radius: 5px; border: none; background: linear-gradient(to bottom, #82A1D8 0%, #3E7DB5 50%, #0070C0 51%, #2F74FF 100%)" >submit</button>
-				
-				
-				<div class="order-page-block" style="background-color:#F5FFFA; width:1200px; border-radius: 5px">
-				
-					<p><i>
-						<br>
-						&nbsp;		Questionnaire 3 </br>
-						&nbsp;		Choose your realm (ASPAC/ NAM/ EUR). </br></br>
-						&nbsp;		<input type="text" placeholder=""> </br>
-						</br>
-					</i></p>
-				</div>
-				<button type="submit" class="btn btn-primary btn-lg" id="get-rate-submit-button" style="height:50px; width:80px; border-radius: 5px; border: none; background: linear-gradient(to bottom, #82A1D8 0%, #3E7DB5 50%, #0070C0 51%, #2F74FF 100%)" >submit</button>
-				
-				
-				
-				
-				
+				<br><br>
+				<button type="submit" class="btn btn-primary btn-lg" id="get-rate-submit-button" style="color: red; height:80px; width:150px; border-radius: 5px; border: none; background: linear-gradient(to bottom, #82A1D8 0%, #3E7DB5 50%, #0070C0 51%, #2F74FF 100%)" > <h1>submit</h1> </button>
+				<p style="color:#FFFFFF"> <i> By submitting this order, you hereby acknowledge that ... </i> </p>
 				
 				
 				</br></br></br>
-				<a href="Order2.html" style="color: #B4C7E7"> Next page </a> <br><br>
+				<a href="Order2.html" style="color: #B4C7E7"> Previous page </a> <br><br>
 				<a href="Marketplace.html" style="color: #B4C7E7"> Back to Marketplace </a> </br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
 			
 			</div>
