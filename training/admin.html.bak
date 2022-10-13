@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+		
+		<link rel="stylesheet" type="text/css" href="styles/1.0.1.min.css"></link>
+		
+		<script defer type="text/javascript" src=""></script>
+		
+		<link rel="shortcut icon" href="imgs/logo.png" type="imgs/logo.png">
+		<title> Welcome to Collaboration Tools </title>
+		
+		<style>
+			
+			.left-flex  {
+							grid-area: ads; position: absolute; left: 2%; top: 15%; }
+			.content-topics  {
+								grid-area: main; position: absolute; left: 20%; right: 20%; top: 10%; }
+			.right-flex  {
+							grid-area: links; position: absolute; left: 85%; top: 15%; }
+		
+		</style>
+	</head>
+	<body>
+	
+		<section class="one">
+		
+			<!-- Header -->
+			<header>
+			
+				<h1 style="color: #800080"> admin training </h1>
+				
+				<h5 style="right:0px;position:fixed;top:2%;color: #800080"> <i> Sign-in & Online learning courses collections <i> </h5>
+			</header>
+		
+		</section>
+		
+		<section class="two">
+		
+			<div class="left-flex">
+				
+				<a href="admin-sso.html">
+					<div class="sign-in-card" style="height:60px; width:200px; background: radial-gradient(#E6E6FA, #D8BFD8); border-radius: 5px; text-align: center; line-height: 60px">
+						
+						<h1 style="color:#800080"> Single Sign-On </h1>
+					
+					</div>
+				</a>
+				
+				
+				<a href="admin-t.html">
+					<div class="sign-in-card" style="height:60px; width:200px; background: radial-gradient(#E6E6FA, #D8BFD8); border-radius: 5px; text-align: center; line-height: 60px">
+						
+						<h1 style="color:#800080"> Training </h1>
+					
+					</div>
+				</a>
+				
+				<a href="">
+					<div class="sign-in-card" style="height:60px; width:200px; background: radial-gradient(#E6E6FA, #D8BFD8); border-radius: 5px; text-align: center; line-height: 60px">
+						
+						<h1 style="color:#800080"> Mainframe </h1>
+					
+					</div>
+				</a>
+				
+				
+			</div>
+			
+			<div class="content-topics" style="display: flex; flex-direction: column">
+			
+				<br><br><br><br>
+				
+				<div class="sign-in-card" style="height:800px; width:1000px; border: 1.5px solid #DA70D6; border-radius: 25px; text-align: center">
+					
+					<h1> Introduction </h1>
+					<p> admin training (R) is a system for new hires sign-in and training </p>
+				
+				
+				
+				
+				
+				</div>
+			
+				<br><br><br><br>
+				
+				
+				
+				
+				
+			
+			</div>
+			
+			<div class="right-flex">
+				
+				
+				
+				
+				
+				
+			</div>
+			
+		
+		</section>
+		
+	
+	</body>
+</html>
