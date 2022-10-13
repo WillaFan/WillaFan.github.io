@@ -6,4 +6,5 @@ https://willafan.github.io/P/index.html
 
 https://willafan.github.io/wiki.net.init/Site---Page.html  
 https://willafan.github.io/Enterprise_download/index.html  
-https://willafan.github.io/raise/Marketplace.html
+https://willafan.github.io/raise/Marketplace.html  
+https://willafan.github.io/training/admin.html  
