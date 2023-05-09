@@ -1,0 +1,44 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title> Welcome to Actuarial! </title>
+    <link rel="shortcut icon" href="images/logo.png" type="imgs/logo.png">
+
+    <style>
+        .mbody {
+            font-family: "楷体", "楷体_GB2312";
+        }
+    </style>
+</head>
+<body>
+    <div class="qqsjl">
+        <div class="qqsjlt">全球时间</div>
+        <ul class="qqsjll">
+            <li><span class="icon icon_cn"></span> 北京时间 <span id="time_bj" class="qqsjtime">05-09 02:34:10</span></li>
+            <li><span class="icon icon_uk"></span> 伦敦时间 <span id="time_ld" class="qqsjtime">05-08 19:34:10</span></li>
+            <li><span class="icon icon_us"></span> 纽约时间 <span id="time_ny" class="qqsjtime">05-08 14:34:10</span></li>
+        </ul>
+    </div>
+    
+    <div class="mbody">
+    <br />
+    <a href="insurance/shouxian.html" class="" id="">寿险 </a>   <br />
+    <a href="insurance/nianjinxian.html" class="" id="">年金险 </a>  <br />
+    <a href="insurance/yiwaixian.html" class="" id="">意外险 </a>  <br />
+    <a href="insurance/gerencaixian.html" class="" id="">个人财险 </a> <br />
+    <a href="insurance/qiyecaixian.html" class="" id="">企业财险 </a> <br />
+    <a href="insurance/lvyouxian.html" class="" id="">旅游险 </a>  <br />
+    <a href="insurance/jiankangxian.html" class="" id="">健康险 </a>  <br />
+    <a href="insurance/licaixian.html" class="" id="">理财险 </a>  <br />
+    <br />
+
+
+
+
+    
+
+    </div>
+    <a href="toubao.com">投保公司</a>
+    <a href="index.htm">Back to Page.</a>
+</body>
