@@ -3,6 +3,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <link rel="stylesheet" type="text/css" href="styles/medium.style.css">
+    <!--
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        -->
 
     <title> Welcome! </title>
     <link rel="shortcut icon" href="images/logo.png" type="imgs/logo.png">
@@ -10,7 +13,9 @@
     <script defer="" type="text/javascript" src="scripts/j-scroll.js"></script>
 
     <style>
-        .quck-links { float:right }
+        .quck-links {
+            float: right
+        }
     </style>
 </head>
 <body>
@@ -24,13 +29,19 @@
             </a>  <br />
         </div>
         <div class="rese-lnks">
-            Repository  |
-            <a href="people.html">People</a>
-            <a href="actuarial.shtml">Actuarial</a>
-            <a href="medical.html">Medical</a>
-            <a href="industrial.html">Applications</a>
-            <a href="acc.html">Accelerate</a>
-
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Repository
+                </button>
+                    |   
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="people.html">People</a></li>
+                    <li><a class="dropdown-item" href="actuarial.shtml">Actuarial</a></li>
+                    <li><a class="dropdown-item" href="medical.html">Medical</a></li>
+                    <li><a class="dropdown-item" href="industrial.html">Applications</a></li>
+                    <li><a class="dropdown-item" href="acc.html">Accelerate</a></li>
+                </ul>
+            </div>
         </div>
     </div>
     <br />
