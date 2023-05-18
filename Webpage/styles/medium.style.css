@@ -8,3 +8,7 @@ body {
 .first-button { border: 2px solid blueviolet; border-radius: 5px; }
 
 booter { background: #232f3e; left:0; bottom:0; width:100%; position: absolute }
+
+.us-university { color: blue;  }
+
+.university-title { color: red; }
